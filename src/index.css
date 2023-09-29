@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1192px;   /* 2 px olib tashla borderni olgandan keyin */
+  border: 1px green solid;
+}
+
